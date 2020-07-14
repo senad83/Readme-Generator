@@ -6,7 +6,17 @@ function generateMarkdown(data) {
  ${data.description}
  
  ## table of content
- ${data.tableofcontent}
+ * [Installation](#installation)
+ 
+ * [description](#description)
+ 
+ * [usage](#usage)
+ 
+ * [lisence](#lisence)
+ 
+ * [contributing](#contributing)
+ 
+ * [tests](#tests)
  
  ## installation
  ${data.installation}
@@ -31,14 +41,3 @@ function generateMarkdown(data) {
 
 module.exports = generateMarkdown;
 
-
-// change markdown file return between tildas
-// create markdownt file
-// copy and paste from console
-// {
-//   projectTitle: 'kjj',
-//   desctiption: 'lkj',
-//   nstallation: ';jj',
-//   usage: 'kljjk',
-//   license: 'MIT'
-// }
