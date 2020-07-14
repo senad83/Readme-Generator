@@ -46,7 +46,7 @@ const questions = [
     },
     {   
         type: "input",
-        name: "URL to picture",
+        name: "URL",
         message: "What is URL to profile picture?"
     },
     {   

@@ -33,8 +33,11 @@ function generateMarkdown(data) {
  ## tests
  ${data.tests}
  
- ## questions
- ${data.questions}
+ ## email
+ ${data.email}
+
+ ## URL
+ ${data.URL}
  
 `;
 }
